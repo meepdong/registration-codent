@@ -9,12 +9,14 @@ import Register from "./components/Register";
 function App() {
   return (
     <div className="App">
-        <Navigation/>
+      <Container style={{ width: '100%' }}>
+        <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Register" element={<Register />} />
         </Routes>
+      </Container>
     </div>
   );
 }
