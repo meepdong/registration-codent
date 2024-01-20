@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+navbar {
+  .navHead {
+    color: #faaf36;
+    font-family: Futura;
+  }
+
+  .name {
+    position: absolute;
+    vertical-align: text-top;
+    flex: auto;
+    /* 50% of your logo width */
+    display: block;
+  }
+  .topnav {
+    border-bottom: 3px solid black;
   }
 }
